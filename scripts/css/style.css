@@ -1,8 +1,38 @@
+
 body{
-    background-color:  #0e183b;
-    background-image: url("../../images/galaxy2.jpg");
+    background-color:  #849782;
     background-position: center;
     background-repeat: no-repeat;
     background-size:2000px;
 
+}
+ul.ulnav{
+    border-radius: 5px;
+    list-style-type: none;
+    margin = 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #262726;
+    color: white;
+}
+li.linav{
+    float:left;
+}
+li.linav a{
+    display: block;
+    color: #fafffa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.linav a.active{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.linav a:hover{
+    background-color: #535553;
+    color:#849782;
 }
