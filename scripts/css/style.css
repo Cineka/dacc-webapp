@@ -7,9 +7,9 @@ body{
 
 }
 ul.ulnav{
-    border-radius: 5px;
+    border-radius: 8px;
     list-style-type: none;
-    margin = 0;
+    margin: 0;
     padding: 0;
     overflow: hidden;
     background-color: #262726;
@@ -19,7 +19,7 @@ li.linav{
     float:left;
 }
 li.linav a{
-    display: block;
+    display: block; 
     color: #fafffa;
     text-align: center;
     padding: 14px 16px;
@@ -35,4 +35,79 @@ li.linav a.active{
 li.linav a:hover{
     background-color: #535553;
     color:#849782;
+}
+li.linavv{
+    float:right;
+}
+li.linavv a{
+    display: block;
+    color: #fafffa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.linavv a.active{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.linavv a:hover{
+    background-color: #535553;
+    color:#849782;
+}
+li.linavn{
+    float:right;
+}
+li.linavn a{
+    display: block;
+    color: #fafffa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.linavn a.active{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.linavc{
+    float:center;
+}
+li.linavc a{
+    display: block;
+    color: #fafffa;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+li.linavc a.active{
+    display: block;
+    color: #ffffff;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+span.subtitle{
+    font-size: 10pt;
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+span.maintitle{
+    font-size: 20pt;
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+}
+#background{
+    border-radius: 10px;
+    width: 70%;
+    height: 85%;
+    background-color: rgba(173, 169, 169, 0.466);
+    position:absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
 }
