@@ -111,3 +111,11 @@ span.maintitle{
     top: 50%;
     transform: translate(-50%, -50%);
 }
+#post{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    z-index: 1;
+    padding: 0px;
+    margin: 0px;
+}
