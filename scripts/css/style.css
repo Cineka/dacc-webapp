@@ -105,6 +105,7 @@ span.maintitle{
     z-index: 1;
     padding: 0px;
     margin: 0px;
+    width: 275px;
 }
 div.info_box{
     border-radius: 10px;
@@ -151,7 +152,7 @@ a.sub_nav2:hover{
     font-family: sans-serif;
     text-decoration: none;
 }
-a.sub_text{
+span.sub_text{
     display:block;
     font-size: 12pt;
     color: #ffffff;
@@ -163,4 +164,63 @@ iframe.game{
     margin-top: 100px;
     margin-left: 425px;
     border-radius: 2px;
+}
+div.info_box2{
+    border-radius: 10px;
+    background-color: #262726;
+    width: 200px;
+    height: auto;
+    padding: 15px;
+}
+table.contact{
+    width: 180px;
+    height: auto;
+}
+#contactsub{
+    display:block;
+    font-size: 12pt;
+    color: #ffffff;
+    text-align: center;
+    font-family: sans-serif;
+    text-decoration: underline;
+}
+#imatable{
+    width: 450px;
+    height: auto;
+    font-size: 16pt;
+    text-align: left;
+    margin-left: 10px;
+    padding: 15px;
+}
+#textcell{
+    width: 650px;
+    height: auto;
+    font-size: 16pt;
+    font-family: sans-serif;
+    color: white;
+    text-align: left;
+    margin-left: 10px;
+    padding: 15px;
+}
+#getrolled{
+    display:block;
+    font-size: 12pt;
+    color: #262726;
+    text-align: center;
+    font-family: sans-serif;
+}
+#getrolled:hover{
+    display:block;
+    font-size: 12pt;
+    color: #055505;
+    text-align: center;
+    font-family: sans-serif;
+}
+.swap{
+    width: 50px;
+    height: 10px;
+    background-image: url(/images/box.png);
+}
+.swap:hover{
+    background-image: url(/images/Trollface_non-free.png);
 }
